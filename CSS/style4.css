@@ -1,0 +1,9 @@
+#box-1{
+    background-color: #a7a7a7;
+    border-left:5px blue solid ;
+    border-right: 10px red dotted;
+    border-radius: 10px;
+    /*border-width: 3px;
+    border-color: red;
+    border-style:solid;*/
+}

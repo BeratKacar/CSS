@@ -27,3 +27,13 @@ a{
 ul li a{
     text-decoration: underline;
 }
+.info span{
+    color:red;
+}
+.info .primary{
+    color: grey;
+}
+
+*{ /* yıldız ecrensel seçicidir. Her etiketi eçer*/
+    font-size: 30px;
+}
