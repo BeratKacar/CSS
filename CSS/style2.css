@@ -1,0 +1,29 @@
+/*
+h1{
+    color: cadetblue;
+    background-color: bisque;
+}
+p{
+    color: rgb(224, 196, 224);
+    background-color: firebrick;
+} 
+    */
+#Logo{
+    color: rgb(26, 61, 93);
+}
+.info{
+    color: blueviolet;
+}
+#logo2, .lead{ /* logo2 id sine sahip olanlar ve lead classında olanlar*/
+    color: darkgreen;
+}
+#para1.cart{ /* para1 id sine sahip olup cart classına sahip olan*/
+    color: gold;
+}
+
+a{
+    text-decoration: none; /* linklerin altındaki çizgiyi kaldırıyor*/
+}
+ul li a{
+    text-decoration: underline;
+}
