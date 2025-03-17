@@ -1,9 +1,26 @@
 #box-1{
-    background-color: #a7a7a7;
-    border-left:5px blue solid ;
-    border-right: 10px red dotted;
-    border-radius: 10px;
-    /*border-width: 3px;
-    border-color: red;
-    border-style:solid;*/
+    background-color: #2a2929;
+    height: 200px;
+    width: 50%;
+}
+#box-2{
+    background-color: aqua;
+    height: 65%;
+    width: 50%;
+}
+.box{
+    width: 50%;
+    height: 100px;
+}
+
+.box-3 {
+    background: red;
+}
+.box-4 {
+    background: blue;
+}
+#test-link{
+    display: inline-block;
+    width: 100px;
+    height: 50px;
 }
