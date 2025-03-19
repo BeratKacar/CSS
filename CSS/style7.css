@@ -1,0 +1,13 @@
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+p{
+    font-family:"Bytesized", sans-serif;
+    font-size: 1.5rem;
+    line-height: 24 px;
+    font-style: italic;
+    font-weight: bold;
+}
+.fa-solid{
+    font-size: 50px;
+}

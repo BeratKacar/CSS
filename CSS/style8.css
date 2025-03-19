@@ -1,0 +1,34 @@
+#Link {
+    font-family:"Bytesized", sans-serif;
+    font-size: 24px;
+}
+#Link:link{/*linkin rengini değiştiriyor*/
+    color: green;
+}
+#Link:visited{/*linke tıklayınca linkin rengi değişiyor */
+    color: rgb(0, 0, 0);
+}
+#Link:hover{ /* linkin üstüne gelince renk değişiyor*/
+    color: red;
+}
+#Link:active{ /* linkin üstüne gelip basulu tuttğunda renk değişiyor*/
+    color:purple;
+}
+input{
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+input:focus{
+    outline: 0;
+    border: 2px dotted red;
+}
+#Facebook{
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    display: inline-block;
+    background: blue;
+    padding: 10px;
+    text-decoration: none;
+}
