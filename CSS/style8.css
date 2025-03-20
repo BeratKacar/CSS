@@ -30,5 +30,19 @@ input:focus{
     display: inline-block;
     background: blue;
     padding: 10px;
-    text-decoration: none;
+    text-decoration:line-through;
+}.text1{
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    line-height: 1.5em;
+}
+.text1::first-line{
+    color: red;
+}
+.text1::first-letter{
+    color: purple;
+}
+.text1::after{
+    content: "End of the text";
+    color: cyan;
 }
