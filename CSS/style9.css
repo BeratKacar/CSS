@@ -1,0 +1,30 @@
+p{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+p:nth-child(5){
+    color: red;
+}
+p:nth-child(3){
+    color: purple;
+}
+p:last-child{
+    background-color: blue;
+}
+p:first-child{
+    background-color: blue;
+}
+p:nth-child(even){ /* even = çift*/
+    color: blueviolet;
+}
+ul{
+    font-size: 1.5em;
+    list-style-type: circle;
+}
+/* n=0 b=0, b+1 per iteration  n = (0,2,4,6,8...)*/
+ul li:nth-child(2n){
+    color: red;
+}
+ul li:nth-child(2n+1){
+    color: cyan;
+}
