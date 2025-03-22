@@ -1,0 +1,48 @@
+.fixed-topbar{
+    width: 50%;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: fixed;
+    right: 20px;
+}
+.red{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative; /*Bulunduğu yerden kaydırmaya yarıyor relative*/
+    top: 10px;
+    left: 10px;
+    z-index: 1; /* Z index = kordinat düzlemindeki 3. boyut. Z indexi kimin daha yüksek olursa o sayfanın en üstünde görünür. Diğerleri altta kalır*/
+}
+.blue{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    left: 20px;
+}
+.outer-box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(222, 198, 198);
+    position: relative;
+}
+.inner-box{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(241, 90, 90);
+    position: absolute; /*absolute- static hariç diğerlerinde kullanılabiliyor. position:static; de kullanılamıyor.*/
+    top: 10px;
+    left: 10px;
+}
+span {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-color: red;
+    position: relative;
+    left: 75px;
+    z-index: -1;
+}
