@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+        <a href="http://127.0.0.1:5500/project/deneme/deneme.html">
+            <img src="./hide_source_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt="Logo">
+        </a>
+    </div>
+    <div class="title">
+        <a href="http://127.0.0.1:5500/project/deneme/deneme.html" class="Link">Choosen One</a>
+    </div>
+    <div class="icon">
+        <a href="http://127.0.0.1:5500/project/deneme/deneme.html" class="Link">☰</a>
+    </div> <!-- Menü ikonu -->
+  </header>
+
+  <main>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos modi suscipit quo necessitatibus totam tempora eum labore ad doloremque unde? Quibusdam reiciendis voluptas delectus excepturi fugiat! Tempora minus iure recusandae provident numquam ab, excepturi libero neque eos aspernatur tempore iste ipsa nobis maxime doloribus, officia asperiores accusamus est doloremque minima incidunt sequi cum velit molestias. Amet eius obcaecati iusto nulla molestias, ducimus magni unde veniam perferendis impedit facere consequatur quod ab dicta nesciunt omnis sint quis dolores pariatur earum. Nihil fuga minima voluptatibus explicabo facere amet culpa repudiandae magni nemo, architecto earum nisi iste hic beatae, modi porro animi necessitatibus.</p>
+  </main>
+
+  <button id="theme-toggle">🌙</button> <!-- Karanlık Mod Butonu -->
+
+  <script>
+    const toggleBtn = document.getElementById("theme-toggle");
+    toggleBtn.addEventListener("click", () => {
+      document.body.classList.toggle("dark");
+      toggleBtn.textContent = document.body.classList.contains("dark") ? "☀️" : "🌙";
+    });
+  </script>
+</body>
+</html>
